@@ -28,8 +28,8 @@ const Detail = () => {
 const BasicButtons = () => {
   return (
     <div>
-      <Button variant="contained">Contained</Button>
-      <Button variant="contained" className="btn-second">Secondary</Button>
+      <Button variant="contained" onClick={() => window.location.href = "/detail"}>Contained</Button>
+      <Button variant="contained" className="btn-second" onClick={() => window.location.href = "/check_out"}>Secondary</Button>
     </div>
   );
 };
